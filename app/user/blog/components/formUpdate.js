@@ -113,7 +113,7 @@ const BlogFormUpdate = (props) => {
                                     id="titlearea"
                                     rows="1"
                                     name="title"
-                                    placeholder="Add Title"
+                                    placeholder="Tambahkan Judul"
                                     onChange={(e) => setTitle(e.target.value)}
                                 >{title}</textarea>
                             </div>
@@ -125,7 +125,7 @@ const BlogFormUpdate = (props) => {
                                 id="bodyarea"
                                 rows="1"
                                 name="body"
-                                placeholder="Click and write your blog here &#128209;"
+                                placeholder="Tulis detail loker di sini &#128209;"
                                 onChange={(e) => { setBody(e.target.value) }}
                                 defaultValue={body}
                             ></textarea>

@@ -88,7 +88,7 @@ const BlogForm = () => {
                                     id="titlearea"
                                     rows="1"
                                     name="title"
-                                    placeholder="Add Title"
+                                    placeholder="Tambahkan Judul"
                                     onChange={(e) => setTitle(e.target.value)}
                                 />
                             </div>
@@ -100,7 +100,7 @@ const BlogForm = () => {
                                 id="bodyarea"
                                 rows="1"
                                 name="body"
-                                placeholder="Click and write your blog here &#128209;"
+                                placeholder="Tulis detail loker di sini &#128209;"
                                 onChange={(e) => {
                                     let bodyEvent = e.target.value
 
